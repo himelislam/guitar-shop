@@ -1,0 +1,74 @@
+[
+    {
+      "_id": "623e0febc19ca7e95ae05d28",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2022/03/Original-Yamaha-Guitalele-GL1-Indonesia-Price-In-BD-02.webp",
+      "price": 8500,
+      "name": "Yamaha GL1 Guitalele"
+    },
+    {
+      "_id": "623e0feb8fe02b551e739153",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2022/02/Chard-CG4-Travel-guitar-price-in-bd-05.webp",
+      "price": 9500,
+      "name": "Chard GS 4 Taylor Barrel"
+    },
+    {
+      "_id": "623e0feb4f833caff9931ad9",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2021/05/Deviser-L-720B-guitar-price-in-bd-02.webp",
+      "price": 8999,
+      "name": "Deviser L-720B"
+    },
+    {
+      "_id": "623e0feb4ff542bc06f60447",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2020/08/Deviser-LS-120N-36-Travel-guitar-price-in-BD-2.jpg",
+      "price": 8999,
+      "name": "Deviser LS-120N"
+    },
+    {
+      "_id": "623e0febb9cad5fb4f876057",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2021/03/Chard-F-4090C-electro-acoustic-guitar-price-bd-02.webp",
+      "price": 9999,
+      "name": "Chard F-4090C"
+    },
+    {
+      "_id": "623e0feb3dfb111a1c18370d",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2020/11/Sqoe-SQ-G-FG-acoustic-guitar-price-in-bd-02b.jpg",
+      "price": 11999,
+      "name": "Sqoe SQ-G-FG Premium"
+    },
+    {
+      "_id": "623e0febbcfa6474eefd8648",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2020/11/Sqoe-39B-acoustic-guitar-price-in-bd-02.jpg",
+      "price": 10999,
+      "name": "Sqoe SQ-39B Premium"
+    },
+    {
+      "_id": "623e0febf38a896d7c397420",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2020/02/Deviser-36-inch-Travel-guitar-price-bd-02b.jpg",
+      "price": 9999,
+      "name": "Deviser LS-130T BK"
+    },
+    {
+      "_id": "623e0feb4a006657f9ae5d5b",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2020/05/Original-Yamaha-C40-classical-guitar-price-in-bd-b1.webp",
+      "price": 12999,
+      "name": "Yamaha C40 Classical"
+    },
+    {
+      "_id": "623e0feb138e0fdd39489dc1",
+      "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2021/08/Original-Yamaha-C70-classical-guitar-price-in-bd-02.webp",
+      "price": 14999,
+      "name": "Yamaha C70 -Classical"
+    },
+    {
+        "_id": "623e0feb138e0fdd39489dc1",
+        "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2020/09/Sandy-S403-N-acoustic-guitar-price-bd-02.webp",
+        "price": 7999,
+        "name": "Sandy S403 N"
+    },
+    {
+        "_id": "623e0feb138e0fdd39489dc1",
+        "img": "https://www.guitaroctave.com/wb/wp-content/uploads/2021/08/TGM-tm1-guitar-price-in-bd-02.webp",
+        "price": 8999,
+        "name": "TGM TM-1 Natural"
+    }
+  ]
