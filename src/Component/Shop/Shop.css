@@ -10,6 +10,8 @@
     padding: 20px 60px;
 }
 .cart-container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 500px;
     position: sticky;
     top: 0;
 }
