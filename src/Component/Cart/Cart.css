@@ -1,0 +1,13 @@
+.cart{
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.cart img{
+    width: 40px;
+    margin-right: 8px;
+}

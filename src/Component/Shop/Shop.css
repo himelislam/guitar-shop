@@ -6,6 +6,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    padding: 100px 80px;
-
+    padding: 20px 60px;
+}
+.cart-buttons button{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: aquamarine;
+    height: 50px;
+    color: black;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
 }

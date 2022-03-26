@@ -1,8 +1,37 @@
 .product{
+    height: 500px;
+    background-color: rgba(96, 227, 245, 0.438);
     border: 1px solid gray;
     border-radius: 10px;
+    position: relative;
 }
 .product img{
     height: 300px;
-    width: 200px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.product-info{
+    margin: 10px;
+}
+.product-info h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.product-btn button{
+    width: 100%;
+    background-color: aqua;
+    font-weight: 700;
+    border: none;
+    height: 40px;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0;
+}
+.product-btn button:hover{
+    color: white;
+    background-color: black;
+}
+.product-btn .icon{
+    margin-left: 7px;
 }
