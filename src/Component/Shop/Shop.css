@@ -20,3 +20,25 @@
     border-radius: 20px;
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 600px){
+	.shop-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 425px){
+	.shop-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

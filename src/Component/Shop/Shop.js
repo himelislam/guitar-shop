@@ -12,11 +12,23 @@ const Shop = () => {
     },[])
 
     const  [cart, setCart] = useState([])
-    console.log(cart)
     const handleAddToCart = (product) => {
         const newProduct = [...cart , product]
         setCart(newProduct)
     }
+
+    const randomCart = () =>{
+        console.log('clclclcl')
+        const existCart = cart;
+        const randomcart = [existCart[Math.floor(Math.random() * existCart.length)]]
+        setCart(randomcart)
+    }
+
+    const clearCart = () =>{
+        const emptyCart = []
+        setCart(emptyCart)
+    }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -33,8 +45,8 @@ const Shop = () => {
                   cart.map(product => <Cart key={product._id} product={product}></Cart>)  
                 }
                 <div className='cart-buttons'>
-                    <button>Choose One For Me</button>
-                    <button>Choose Again</button>
+                    <button onClick={randomCart}>Choose One For Me</button>
+                    <button onClick={clearCart}>Choose Again</button>
                 </div>
             </div>
             
