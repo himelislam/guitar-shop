@@ -5,7 +5,7 @@ const Qnapart = () => {
     return (
         <div className='qnapart-container'>
             <h2>Q.1 How React Works?</h2>
-            <p>Answer: React is a JavaScript-based UI development library. React converts Components which is written in pure JavaScript by JSX into an HTML code. And then React uses his Virtual DOM to re-render the HTML code to an .html file and and shows in Browser. When any components gets changed or modified react uses his Virtual Dom and and compare with actual Dom and update just the component which is been modified by dynamically. thats how react works fast and effeciently.</p>
+            <p>Answer: React is a JavaScript-based UI development library. React converts Components which is written in pure JavaScript by JSX into an HTML code. And then React uses his Virtual DOM to re-render the HTML code to inject in an .html file and and shows in Browser. When any components gets changed or modified react uses his Virtual Dom and and compare with actual Dom and update just the component dynamically which is been modified. thats how react works fast and effeciently.</p>
             <h2>Q.2 Difference Between State and Props</h2>
             <p>Answer:</p>
             <p>Props:-</p>

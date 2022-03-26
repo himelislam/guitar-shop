@@ -5,6 +5,9 @@ import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([])
+
+    // fetching guitar fake data from public folder
+
     useEffect(()=>{
         fetch('fakedb.json')
         .then(res => res.json())
@@ -12,15 +15,20 @@ const Shop = () => {
     },[])
 
     const  [cart, setCart] = useState([])
+
+    // add to cart data function
+
     const handleAddToCart = (product) => {
         const newProduct = [...cart , product]
         if(newProduct.length<5){  
             setCart(newProduct) 
         }
         else{
-            alert('Cant Add Item more than 4')
+            alert('Oops!! Cant Add more than 4 product.')
         }
     }
+
+    // generating random product for cart data
 
     const randomCart = () =>{
         clearCart()
@@ -28,6 +36,8 @@ const Shop = () => {
         const randomcart = [existCart[Math.floor(Math.random() * existCart.length)]]
         setCart(randomcart)
     }
+
+    // clearing products from cart
 
     const clearCart = () =>{
         const emptyCart = []

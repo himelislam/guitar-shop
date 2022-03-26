@@ -7,11 +7,11 @@ const Product = ({product, handleAddToCart}) => {
     return (
         <div className='product'>
             <div>
-            <img src={img} alt="" />
+                <img src={img} alt="" />
             </div>
             <div className='product-info'>
-            <h2>{name}</h2>
-            <h4>Price: ${price}</h4>
+                <h2>{name}</h2>
+                <h4>Price: ${price}</h4>
             </div>
             <div className='product-btn'>
                 <button onClick={()=>handleAddToCart(product)} >Add To Cart<BsCart4 className='icon'/></button>
