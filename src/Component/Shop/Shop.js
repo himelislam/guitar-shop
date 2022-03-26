@@ -14,11 +14,15 @@ const Shop = () => {
     const  [cart, setCart] = useState([])
     const handleAddToCart = (product) => {
         const newProduct = [...cart , product]
-        setCart(newProduct)
+        if(newProduct.length<5){  
+            setCart(newProduct) 
+        }
+        else{
+            alert('Cant Add Item more than 4')
+        }
     }
 
     const randomCart = () =>{
-        console.log('clclclcl')
         const existCart = cart;
         const randomcart = [existCart[Math.floor(Math.random() * existCart.length)]]
         setCart(randomcart)

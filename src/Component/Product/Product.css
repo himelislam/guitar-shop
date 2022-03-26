@@ -8,11 +8,11 @@
 .product img{
     height: 300px;
     width: 250px;
-    margin: 10px;
+    margin: 14px;
     border-radius: 10px;
 }
 .product-info{
-    margin: 10px;
+    margin: 14px;
 }
 .product-info h2{
     margin-top: 0px;
