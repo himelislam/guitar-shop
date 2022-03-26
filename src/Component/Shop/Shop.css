@@ -1,6 +1,7 @@
 .shop-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background-color: #f1faee;
 }
 .products-container{
     display: grid;
@@ -8,23 +9,28 @@
     grid-gap: 20px;
     padding: 20px 60px;
 }
+.cart-container{
+    position: sticky;
+    top: 0;
+}
 .cart-buttons button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
     width: 100%;
     border: none;
-    background-color: aquamarine;
+    background-color: #a8dadc;
     height: 50px;
     color: black;
     font-weight: 700;
-    border: 1px solid black;
+    border: 1px solid #1d3557;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 600px){
 	.shop-container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .products-container{
         display: grid;

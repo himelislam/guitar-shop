@@ -1,9 +1,10 @@
 .product{
     height: 500px;
-    background-color: rgba(96, 227, 245, 0.438);
-    border: 1px solid gray;
+    background-color: #f1faee;
+    border: 1px solid #1d3557;
     border-radius: 10px;
     position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .product img{
     height: 300px;
@@ -18,9 +19,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.product-info h4{
+    margin-top: 5px;
+}
 .product-btn button{
     width: 100%;
-    background-color: aqua;
+    background-color: #e63946;
+    color: white;
     font-weight: 700;
     border: none;
     height: 40px;
@@ -30,7 +35,7 @@
 }
 .product-btn button:hover{
     color: white;
-    background-color: black;
+    background-color: #1d3557;
 }
 .product-btn .icon{
     margin-left: 7px;

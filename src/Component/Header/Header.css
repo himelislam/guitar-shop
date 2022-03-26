@@ -1,3 +1,14 @@
 .header{
+    background-color: #1d3557;
     text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header h1{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.header p{
+    margin-top: 0;
 }

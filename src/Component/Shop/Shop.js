@@ -23,6 +23,7 @@ const Shop = () => {
     }
 
     const randomCart = () =>{
+        clearCart()
         const existCart = cart;
         const randomcart = [existCart[Math.floor(Math.random() * existCart.length)]]
         setCart(randomcart)
