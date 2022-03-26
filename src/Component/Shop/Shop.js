@@ -54,7 +54,6 @@ const Shop = () => {
                     <button onClick={clearCart}>Choose Again</button>
                 </div>
             </div>
-            
         </div>
     );
 };
